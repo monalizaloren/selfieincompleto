@@ -1,7 +1,5 @@
 
-var SpeechRecognition = window.webkitSpeechRecognition;
-var Content;
-var recognition = new SpeechRecognition();
+
 
 function ???() // nome da função de quando o botão iniciar é clicado
 {
@@ -25,7 +23,7 @@ function ???(){ //nome da função da linha 18
     var synth = window.speechSynthesis;
     Webcam.attach(camera);
 
-    speakData = "Tirando sua selfie em 5 segundos";
+    speakData = "      s";
     var utterThis = new SpeechSynthesisUtterance(speakData);
     synth.speak(utterThis);
 
